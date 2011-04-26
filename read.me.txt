@@ -1,0 +1,33 @@
+What can you change in the plugin ? Not many, and which may change is already configured with the best option.
+You can change only the constant defined in _SELF_SHORT_URL_MODE, other changes are not necessary and not recommended.
+Valid values are described below:
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~ Define Shortening Mode with "_SELF_SHORT_URL_MODE" ~~~~~~~~~~~~~~~~~~~~~~~~~
+# 0 - is integer mode = real Post ID from wordpress database 
+# 1 - Base 16 Mode - the hexadecimal mode, meaning the post ID of wordpress is converted into base 16
+# 2 - Extended Mode - Post ID value is transformed into letters and numbers, which is actually is base 36
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+For integer: INTEGER
+define('_SELF_SHORT_URL_MODE',0);
+
+For HEXAZECIMAL
+define('_SELF_SHORT_URL_MODE',1); 
+
+Letters and Numbers (this is defaul mode, and the best)
+define('_SELF_SHORT_URL_MODE',2);
+
+
+ATENTION:
+1. One of these files, "wp-config.php" or "index.php", must have write access - "index.php" is preferable for faster loading. Otherwise, shortened links will not work.
+2. Disabling plugin does not mean the loss of links, they will continue to function until the plugin code from in wp-config.php or index.php will be manually removed.
+3. Any other changes to the plugin can lead to malfunction or problems with the blog. 
+4. Plugin programmer is not responsible for incompatibility with some blogs, or any version of WordPress.
+5 these folders should not exist in root blog: /i/ or /h/ or /z/ and also, there should be no page with slug name "z", "h" or "i" ... in 99% of cases should not be any problem.
+
++++++++++++++++++++++++++++++
+Have fun.
+Emilian Robert Vicol (ByREV)
+http://byrev.org
++++++++++++++++++++++++++++++
+
