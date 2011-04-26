@@ -39,9 +39,11 @@ Letters and Numbers (this is defaul mode, and the best)
 `define('_SELF_SHORT_URL_MODE',2);`
 
 **Can I change html style?**
+
 Yes, edit **byrev_selft_short_url.php** and change *css style* code from **_SELF_SHORT_URL_STYLE** constant.
 
 **Can I change the name "Short URL" in another text?**
+
 Yes, edit **byrev_selft_short_url.php** and change text from **_SELF_SHORT_URL_TITLE** constant.
 
 Pay attention to the syntax, one mistake can "ruin" the whole site design!
