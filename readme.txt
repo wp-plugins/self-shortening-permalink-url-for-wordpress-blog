@@ -14,8 +14,8 @@ Self Shortening URL for Wordpress Blog. Is based on an article ID, page, categor
 
 *  Download **Self Shortening URL** WordPress Plugin and Install !
 *  Activate **ByREV Shortening URL.** from wp plugins menu: /wp-admin/plugins.php
-*  Edit **byrev_selft_short_url.php** file if needed, see: [FAQ]()
-*  Pleas Read [NOTE]() for more information
+*  Edit **byrev_selft_short_url.php** file if needed, see: [FAQ](http://wordpress.org/extend/plugins/self-shortening-permalink-url-for-wordpress-blog/faq/)
+*  Pleas Read [NOTE](http://wordpress.org/extend/plugins/self-shortening-permalink-url-for-wordpress-blog/other_notes/) for more information
 
 == Frequently Asked Questions ==
 
