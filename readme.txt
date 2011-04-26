@@ -54,9 +54,11 @@ Pay attention to the syntax, one mistake can "ruin" the whole site design!
 
 == Changelog ==
 
+No Log.
 
 == Upgrade Notice ==
 
+No Notice.
 
 == NOTE! ==
 
